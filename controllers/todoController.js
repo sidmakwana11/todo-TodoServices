@@ -1,4 +1,4 @@
-const Todo = require('../models/Todo');
+const { Todo } = require("mern-db-layer");
 
 exports.getTodos = async (req, res) => {
   const { userId } = req.params;
