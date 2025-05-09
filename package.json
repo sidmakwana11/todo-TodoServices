@@ -2,9 +2,12 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "gridfs-stream": "^1.1.1",
+    "mern-db-layer": "git+https://github.com/sidmakwana11/mern-db-layer.git",
     "mongoose": "^8.13.2",
-    "mern-db-layer": "git+https://github.com/sidmakwana11/mern-db-layer.git"
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.2"
   }
 }
